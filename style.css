@@ -50,6 +50,60 @@ a:hover {
 ================================ */
 header {
     background-color: var(--color-bg-dark);
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    padding: 2rem;
+    gap: 2rem;
+}
+
+#portrait-name-container {
+    flex: 1;
+    position: relative;
+}
+
+#portrait-name-container h1 {
+    position: absolute;
+    bottom: 2rem;
+    right: 1rem;
+    font-family: var(--font-heading);
+    font-size: 6.5rem;
+    color: var(--color-heading-dark-bg);
+    text-shadow: 0px 0px 15px rgba(0, 0, 0, 1),
+                 0px 0px 30px rgba(0, 0, 0, 0.9),
+                 0px 0px 60px rgba(0, 0, 0, 0.7);
+}
+
+#portrait-name-container img {
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+    object-position: top;
+    display: block;
+}
+
+#bio-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+#bio-container h2 {
+    font-family: var(--font-heading);
+    font-size: 2rem;
+    color: var(--color-heading-dark-bg);
+}
+
+#bio-container p {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: var(--color-text-dark-bg);
+}
+
+.link-container {
+    display: flex;
+    gap: 1rem;
 }
 
 /* ================================
