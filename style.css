@@ -1,0 +1,73 @@
+/* ================================
+   Custom Properties (Variables)
+================================ */
+:root {
+    /* Fonts */
+    --font-heading: 'Playfair Display', serif;
+    --font-body: 'Roboto', sans-serif;
+
+    /* Colors */
+    --color-bg-dark: #0a1628;       /* deep navy from moonlit bg */
+    --color-bg-light: #ffffff;      /* white middle section */
+    --color-accent: #4a9eff;        /* glowing blue from both images */
+    --color-accent-hover: #2d7dd2;  /* darker blue for hover states */
+    --color-text-dark-bg: #c8d6e8;  /* soft blue-white for dark sections */
+    --color-text-light-bg: #1a2332; /* dark navy for white section */
+    --color-card-bg: #f4f4f6;       /* slight cool grey, nods to portrait bg */
+    --color-heading-dark-bg: #ffffff;
+    --color-heading-light-bg: #0a1628;
+}
+
+/* ================================
+   Base / Reset Styles
+================================ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-body);
+    background-color: var(--color-bg-dark);
+    color: var(--color-text-dark-bg);
+}
+
+/* ================================
+   Links
+================================ */
+a {
+    color: var(--color-accent);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--color-accent-hover);
+}
+
+/* ================================
+   Header
+================================ */
+header {
+    background-color: var(--color-bg-dark);
+}
+
+/* ================================
+   Main / My Work
+================================ */
+main {
+    background-color: var(--color-bg-light);
+    color: var(--color-text-light-bg);
+}
+
+main a {
+    color: var(--color-accent-hover);
+}
+
+/* ================================
+   Footer
+================================ */
+footer {
+    background-color: var(--color-bg-dark);
+    color: var(--color-text-dark-bg);
+}
