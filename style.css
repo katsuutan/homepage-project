@@ -65,7 +65,7 @@ header {
 
 #portrait-name-container h1 {
     position: absolute;
-    bottom: 3rem;
+    bottom: 2rem;
     right: 1rem;
     font-family: var(--font-heading);
     font-size: 5.5rem;
@@ -125,13 +125,79 @@ header {
    Main / My Work
 ================================ */
 main {
-    background-color: var(--color-bg-light);
-    color: var(--color-text-light-bg);
+    background-color: var(--color-bg-dark);
+    padding: 2rem 10rem;
 }
 
 main a {
     color: var(--color-accent-hover);
 }
+
+section {
+    color: var(--color-text-light-bg);
+}
+
+section h2 {
+    color: var(--color-text-dark-bg);
+    font-family: var(--font-heading);
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+section p {
+    font-size: 1rem;
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.card {
+    background-color: var(--color-bg-light);
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px 4px rgba(74, 158, 255, 0.2);
+    overflow: hidden;
+}
+
+.card-title-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-content {
+    padding: 1rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.card-content h3 {
+    font-family: var(--font-heading);
+    font-size: 1.25rem;
+    color: var(--color-heading-light-bg);
+}
+
+.card-content p {
+    color: var(--color-text-light-bg);
+    line-height: 1.6;
+}
+
+.card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    
+}
+
+.card img.position-top {
+    object-position: top;
+}
+
 
 /* ================================
    Footer
