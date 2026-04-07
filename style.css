@@ -159,6 +159,12 @@ section p {
     border-radius: 8px;
     box-shadow: 0px 0px 20px 4px rgba(74, 158, 255, 0.2);
     overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 0px 30px 8px rgba(200, 220, 255, 0.6);
 }
 
 .card-title-row {
