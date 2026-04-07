@@ -367,5 +367,6 @@ footer .link-container {
     .contact-image {
         width: 100%;
         height: 50vh;
+        margin-top: 1.5rem;
     }
 }
