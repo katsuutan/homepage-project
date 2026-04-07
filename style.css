@@ -304,6 +304,28 @@ footer .link-container {
 
 
 /* ================================
+   Credits
+================================ */
+.credits {
+    text-align: center;
+    padding: 2rem;
+    font-size: 0.8rem;
+    color: var(--color-text-dark-bg);
+    opacity: 0.7;
+    background-color: var(--color-bg-dark);
+}
+
+.credits ul {
+    list-style: none;
+    margin-top: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem 2rem;
+}
+
+
+/* ================================
    Tablet (max-width: 768px)
 ================================ */
 @media (max-width: 768px) {
