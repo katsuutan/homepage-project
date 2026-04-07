@@ -52,6 +52,22 @@ a:hover {
     padding: 0.25rem;
 }
 
+.card-title-row a img {
+    width: 28px;
+    height: 28px;
+}
+
+.card-links {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.card-links a img {
+    width: 28px;
+    height: 28px;
+}
+
 .link-container a img,
 .contact-container a img {
     width: 25px;
