@@ -307,5 +307,65 @@ footer .link-container {
     footer .link-container {
         margin-top: 1.5rem;
     }
+}
 
+/* ================================
+   Mobile (max-width: 480px)
+================================ */
+@media (max-width: 480px) {
+
+    /* Header */
+    header {
+        padding: 1.5rem;
+    }
+
+    #portrait-name-container {
+        width: 100%;
+    }
+
+    #portrait-name-container img {
+        height: 60vh;
+    }
+
+    #portrait-name-container h1 {
+        font-size: 2.5rem;
+        bottom: 1rem;
+    }
+
+    #bio-container {
+        padding: 1.5rem;
+    }
+
+    /* Main */
+    main {
+        padding: 2rem 1.5rem;
+    }
+
+    section {
+        padding: 0 1.5rem;
+    }
+
+    .cards-container {
+        grid-template-columns: 1fr;
+    }
+
+    .card img {
+        height: 250px;
+    }
+
+    /* Footer */
+    footer {
+        flex-direction: column;
+        align-items: center;
+        padding: 3rem 1.5rem 0rem 1.5rem;
+    }
+
+    .contact-container {
+        width: 100%;
+    }
+
+    .contact-image {
+        width: 100%;
+        height: 50vh;
+    }
 }
