@@ -205,4 +205,47 @@ section p {
 footer {
     background-color: var(--color-bg-dark);
     color: var(--color-text-dark-bg);
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2rem;
+    min-height: 100vh;
+    padding: 6rem 2rem 0rem 2rem;
 }
+
+.contact-container {
+    flex: 0 1 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-left: 6rem;
+}
+
+.contact-container h2 {
+    font-family: var(--font-heading);
+    font-size: 2rem;
+    color: var(--color-heading-dark-bg);
+}
+
+.contact-container p {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: var(--color-text-dark-bg);
+}
+
+footer .link-container {
+    margin-top: 4rem;
+}
+
+.contact-image {
+    flex: 0 1 500px;
+    height: 80vh;
+    object-fit: cover;
+    object-position: top;
+    display: block;
+
+    border-radius: 4px 32px 4px 32px;
+    box-shadow: 0px 0px 30px 8px rgba(74, 158, 255, 0.4);
+}
+
